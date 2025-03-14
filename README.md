@@ -37,3 +37,35 @@ To run this project, ensure you have the following installed:
 ---
 
 ## Project Structure
+
+safaricom-backend-django/
+├── applications/           # Django app containing models, views, serializers
+│   ├── migrations/         # Database migrations
+│   ├── admin.py            # Admin interface configuration
+│   ├── models.py           # Database models (Bank, Branch, Application)
+│   ├── serializers.py      # DRF serializers for API
+│   └── views.py            # API views
+├── safaricom_backend/      # Django project settings and URLs
+│   ├── settings.py         # Configuration (DB, media, etc.)
+│   ├── urls.py             # URL routing
+│   └── wsgi.py             # WSGI entry point
+├── media/                  # Uploaded files (proof of bank account)
+├── .env                    # Environment variables (not tracked in Git)
+├── .gitignore              # Git ignore file
+├── Dockerfile              # Docker configuration for the app
+├── docker-compose.yml      # Docker Compose configuration
+├── manage.py               # Django management script
+├── README.md               # This file
+└── requirements.txt        # Python dependencies
+
+
+---
+
+## Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/strawhat404/safaricom-backend-django.git
+cd safaricom-backend-django
+
+
