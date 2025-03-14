@@ -69,3 +69,9 @@ git clone https://github.com/strawhat404/safaricom-backend-django.git
 cd safaricom-backend-django
 
 
+### 2.configure the environment variable
+DB_NAME=safaricom_db
+DB_USER=safaricom_user
+DB_PASSWORD=safaricom_pass
+DB_HOST=db
+DB_PORT=5432
