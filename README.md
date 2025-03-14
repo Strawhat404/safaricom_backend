@@ -36,4 +36,10 @@ This is the backend for a full-stack application developed for the Safaricom Eth
 .\venv\Scripts\activate  # On Windows
 3.**install dependencies**
    pip install -r requirements.txt
+
+4.python manage.py migrate
+
+5.python manage.py createsuperuser
+
+6.python manage.py runserver
    
