@@ -31,3 +31,9 @@ This is the backend for a full-stack application developed for the Safaricom Eth
    ```bash
    git clone https://github.com/yourusername/safaricom-backend-django.git
    cd safaricom-backend-django
+2. **create virual environment**
+   python -m venv venv
+.\venv\Scripts\activate  # On Windows
+3.**install dependencies**
+   pip install -r requirements.txt
+   
